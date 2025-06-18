@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo - Lucas Joaquim</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 20px;
+      }
+
+      .curriculo {
+        max-width: 900px;
+        margin: auto;
+        background: white;
+        display: flex;
+      }
+
+      .coluna-esquerda {
+        width: 35%;
+        background-color: #f0f8ff;
+        padding: 20px;
+        border-right: 1px solid #ddd;
+      }
+
+      .coluna-direita {
+        width: 65%;
+        padding: 20px;
+      }
+
+      .foto-perfil {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 1.8em;
+        text-align: center;
+      }
+
+      h2 {
+        border-bottom: 2px solid #007bff;
+        padding-bottom: 5px;
+      }
+
+      .contato p {
+        margin: 5px 0;
+        text-align: center;
+      }
+
+      .habilidades ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .habilidades li {
+        margin-bottom: 15px;
+      }
+
+      .barra-skill-fundo {
+        background-color: #e0e0e0;
+        border-radius: 10px;
+        height: 12px;
+        margin-top: 5px;
+      }
+
+      .barra-skill-preenchimento {
+        background-color: #007bff;
+        height: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="curriculo">
+      <div class="coluna-esquerda">
+        <img
+          class="foto-perfil"
+          src="https://media.licdn.com/dms/image/v2/D4D03AQGkMacsvw3q1w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723781136095?e=1755734400&v=beta&t=rw8sRFWF_O-JvuTdD5j2XKXxgjpZ54Q1LgLnkg5GDNA"
+          alt="Foto de perfil"
+        />
+        <div class="contato">
+          <h1>Lucas Joaquim de Oliveira Soares</h1>
+          <p>22 anos</p>
+          <p>Pouso Alegre - MG</p>
+          <p>lucasjoaquim84@gmail.com</p>
+        </div>
+
+        <div class="habilidades">
+          <h2>Habilidades</h2>
+          <ul>
+            <li>
+              HTML & CSS
+              <div class="barra-skill-fundo">
+                <div class="barra-skill-preenchimento" style="width: 20%"></div>
+              </div>
+            </li>
+            <li>
+              Python
+              <div class="barra-skill-fundo">
+                <div class="barra-skill-preenchimento" style="width: 60%"></div>
+              </div>
+            </li>
+            <li>
+              SQL
+              <div class="barra-skill-fundo">
+                <div class="barra-skill-preenchimento" style="width: 60%"></div>
+              </div>
+            </li>
+            <li>
+              Power BI
+              <div class="barra-skill-fundo">
+                <div class="barra-skill-preenchimento" style="width: 20%"></div>
+              </div>
+            </li>
+            <li>
+              Excel
+              <div class="barra-skill-fundo">
+                <div
+                  class="barra-skill-preenchimento"
+                  style="width: 100%"
+                ></div>
+              </div>
+            </li>
+            <li>
+              SAP B1
+              <div class="barra-skill-fundo">
+                <div
+                  class="barra-skill-preenchimento"
+                  style="width: 100%"
+                ></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="coluna-direita">
+        <div class="secao">
+          <h2>Formação Acadêmica</h2>
+          <div>
+            <h4>Sistemas de Informação</h4>
+            <p>
+              Universidade do Vale do Sapucaí (Cursando) - Conclusão em: 2027
+            </p>
+          </div>
+          <div>
+            <h4>Técnico em Mecânica Integrado ao Ensino Médio</h4>
+            <p>
+              Instituto Federal Campus Avançado Três Corações - Concluído em:
+              2020
+            </p>
+          </div>
+        </div>
+
+        <div class="secao">
+          <h2>Experiência Profissional</h2>
+          <div>
+            <h4>Adubos Real</h4>
+            <p>Assistente de TI | 05/03/2022 - Atualmente</p>
+          </div>
+          <div>
+            <h4>Óticas Diniz</h4>
+            <p>Auxiliar de Estoque | 17/10/2022 - 04/03/2024</p>
+          </div>
+          <div>
+            <h4>A Soberana dos Parafusos</h4>
+            <p>Balconista | 12/04/2022 - 02/10/2022</p>
+          </div>
+          <div>
+            <h4>Exército Brasileiro</h4>
+            <p>Auxiliar de Furriel | 01/03/2021 - 12/01/2022</p>
+          </div>
+        </div>
+
+        <div class="secao">
+          <h2>Projetos</h2>
+          <div>
+            <h4>Key user SAP S/4HANA</h4>
+            <p>
+              Principal ponto de contato para os usuários de compras e
+              logística, dando suporte para resolver problemas e tirar dúvidas
+              sobre os processos de MM. Criei e apliquei treinamentos sobre as
+              funções do sistema.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
